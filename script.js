@@ -43,7 +43,8 @@ for (let i of articleLessArray) {
 console.log(ans);
 
 
-let ultag = document.getElementById("band");
+let ultag = document.getElementsByTagName("ul")[0];
+ultag.id = "band";
 ultag.innerHTML = `<li>a</li>
                    <li>an</li>
                    <li>the</li>`
