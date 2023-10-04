@@ -41,3 +41,14 @@ for (let i of articleLessArray) {
 }
 
 console.log(ans);
+
+
+let ultag = document.getElementById("band");
+ultag.innerHTML = `<li>a</li>
+                   <li>an</li>
+                   <li>the</li>`
+
+
+
+
+
