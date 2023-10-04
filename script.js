@@ -6,8 +6,7 @@ let arr =  ['Tajmahal',
 let arrless =[];
 let mp = {};
 
-let regex = /\bthe\b|\ban\b|\ba\b/gi;
-	a\b/gi;
+let regexp = /\bthe\b|\ban\b|\ba\b/gi;
 for(let i=0; i<arr.length; i++)
 {
 
